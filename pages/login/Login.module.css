@@ -1,0 +1,118 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.containergreen {
+  position: absolute;
+  width: 33.5vw;
+  height: 100vh;
+  left: 10;
+  /* background-color: #ffffff; */
+  top: 0;
+}
+.containergreen1 {
+  position: absolute;
+  width: 28%;
+  height: 100%;
+  left: 10;
+  background-color: #ffffff;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: inherit;
+}
+.centerbox {
+  width: 75vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.loginbox {
+  width: 72%;
+  height: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  border-radius: inherit;
+}
+
+.loginbox form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginbox form h1 {
+  margin: 20px 0;
+}
+
+.loginbox form div label {
+  width: 60px;
+}
+
+.loginbox form div {
+  width: 500px;
+  height: 40px;
+  margin: 7px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loginbox form div input {
+  border: none;
+  outline: none;
+  width: 300px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.074);
+  border-radius: 10px;
+}
+
+.loginbox form div input::placeholder {
+  color: rgba(99, 99, 99, 0.449);
+  text-align: center;
+}
+
+.loginbox form button {
+  width: 70px;
+  height: 30px;
+  background-color: #252525;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.avatar {
+  /* Rounded border */
+  border-radius: 50%;
+
+  /* Center the content */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  /* Size */
+  height: 4rem;
+  width: 4rem;
+}
+
+.avatar__image {
+  /* Size */
+  height: 50%;
+  width: 50%;
+}
